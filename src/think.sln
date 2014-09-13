@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utils", "utils\utils.vcxproj", "{4604D43B-6A18-49FD-BDF8-C3DA9F8E224E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "safety", "safety\safety.vcxproj", "{2EB0CCD2-A8EE-484E-AF55-C2668751C6AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4604D43B-6A18-49FD-BDF8-C3DA9F8E224E} = {4604D43B-6A18-49FD-BDF8-C3DA9F8E224E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fastUI", "fastUI\fastUI.vcxproj", "{5E8A82FA-E90A-4A71-8039-1175571C4D93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4604D43B-6A18-49FD-BDF8-C3DA9F8E224E} = {4604D43B-6A18-49FD-BDF8-C3DA9F8E224E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usb", "usb\usb.vcxproj", "{071DCA53-C5C2-4C8E-A1E4-AFB1D20987F6}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4604D43B-6A18-49FD-BDF8-C3DA9F8E224E}.Release|Win32.ActiveCfg = Release|Win32
+		{4604D43B-6A18-49FD-BDF8-C3DA9F8E224E}.Release|Win32.Build.0 = Release|Win32
+		{2EB0CCD2-A8EE-484E-AF55-C2668751C6AC}.Release|Win32.ActiveCfg = Release|Win32
+		{2EB0CCD2-A8EE-484E-AF55-C2668751C6AC}.Release|Win32.Build.0 = Release|Win32
+		{5E8A82FA-E90A-4A71-8039-1175571C4D93}.Release|Win32.ActiveCfg = Release|Win32
+		{5E8A82FA-E90A-4A71-8039-1175571C4D93}.Release|Win32.Build.0 = Release|Win32
+		{071DCA53-C5C2-4C8E-A1E4-AFB1D20987F6}.Release|Win32.ActiveCfg = Release|Win32
+		{071DCA53-C5C2-4C8E-A1E4-AFB1D20987F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
